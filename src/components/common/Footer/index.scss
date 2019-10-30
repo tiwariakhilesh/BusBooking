@@ -1,0 +1,32 @@
+ .myfooter {
+  background-color: #ececed;
+  border-top: 1px solid #ddd;
+  padding: 50px 0 0px;
+  margin-top: 100px;
+    .copyright-box{
+      background-color: #e0e0e0;
+        padding: 15px 0;
+        font-size: 12px;
+        color: #333;
+    }
+    h4{
+      margin: 0 0 10px;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: Open\ Sans,sans-serif;
+    }
+    a, a:hover{
+      color: #666;
+      display: block;
+      margin-bottom: 5px;
+      list-style: none;
+      text-decoration: none;
+    }
+    .nav>li>a{
+      padding: 0;
+    }
+  }
+
+iframe{
+  border: 5px dotted green;
+}

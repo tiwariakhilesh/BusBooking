@@ -1,0 +1,42 @@
+.mynav {
+  background-color: #f9f4f4 !important;
+  color: #000 !important;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+  .nav {
+    li {
+      a {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 11px;
+        margin-top: 15px;
+        color: #000;
+      }
+      a :active,
+      a :hover {
+        color: #334755;
+      }
+    }
+  }
+  .navDropDown a,
+  .dropdown-menu {
+    background-color: #f9f4f4 !important;
+    :hover {
+      color: #334755;
+    }
+  }
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:focus,
+  .navbar-nav > .open > a:hover {
+    color: #334755;
+  }
+}
+@media all and (max-width: 767px) {
+  .mynav .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+  }
+}
